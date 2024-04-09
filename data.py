@@ -2,6 +2,7 @@ from mido import MidiFile
 from music21 import converter, instrument, note, chord, stream
 import csv
 
+# Get gnere, key and chords from midi file
 # Assumation - everything is a chord
 # Chord = [note1, note2, note3, note4...]
 
